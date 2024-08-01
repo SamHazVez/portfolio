@@ -1615,6 +1615,10 @@ input, select, textarea {
 					margin-top: 2rem;
 				}
 
+				#main article section p {
+					text-align: justify;
+				}
+
 		@media screen and (max-width: 736px) {
 
 			#main article {
