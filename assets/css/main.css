@@ -713,6 +713,13 @@ input, select, textarea {
 			margin: 1rem;
 		}
 
+		.image.example img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 60%;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1299,7 +1306,7 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .image img {
+		#header .profile img {
 			width: 15rem;
 			height: 15rem;
 			line-height: 15rem;
@@ -1337,7 +1344,6 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
-				max-height: 40rem;
 				overflow: hidden;
 			}
 
@@ -1345,12 +1351,12 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
-			#header .content p {
+			/*#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
-			}
+			}*/
 
 		#header nav ul {
 			display: -moz-flex;
