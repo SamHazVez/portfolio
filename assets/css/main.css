@@ -1358,11 +1358,18 @@ input, select, textarea {
 				line-height: 2;
 			}*/
 
+			#header .content section {
+				margin-bottom: 5rem;
+				padding-left: 20%;
+				padding-right: 20%;
+			}
+
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+			flex-wrap: nowrap;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
@@ -1479,6 +1486,28 @@ input, select, textarea {
 
 			#header .content p {
 				line-height: 1.875;
+			}
+
+			#header .content section {
+				margin-bottom: 5rem;
+				padding-left: 2rem;
+				padding-right: 2rem;
+			}
+
+			#header nav ul {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: repeat(3, auto);
+			}
+		
+			#header nav ul li {
+				text-align: center;
+				border-bottom: solid 1px #ffffff;
+				border-left: none;
+			}
+		
+			#header nav ul li:nth-last-child(-n+2) {
+				border-bottom: none;
 			}
 
 		}
@@ -1676,6 +1705,65 @@ input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+		}
+
+		#footer nav ul {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			margin-bottom: 0;
+			list-style: none;
+			padding-left: 0;
+			margin: 0 auto;
+			max-width: calc(3 * 10rem + 4px);
+			border: solid 1px #ffffff;
+			border-radius: 4px;
+			justify-content: center;
+		}
+
+			#footer nav ul li {
+				padding-left: 0;
+				border-left: solid 1px #ffffff;
+			}
+
+				#footer nav ul li:first-child {
+					border-left: 0;
+				}
+
+				#footer nav ul li a {
+					display: block;
+					min-width: 10rem;
+					height: 2.75rem;
+					line-height: 2.75rem;
+					padding: 0 1.25rem 0 1.45rem;
+					text-transform: uppercase;
+					letter-spacing: 0.2rem;
+					font-size: 0.8rem;
+					border-bottom: 0;
+				}
+
+					#footer nav ul li a:hover {
+						background-color: rgba(255, 255, 255, 0.075);
+					}
+
+					#footer nav ul li a:active {
+						background-color: rgba(255, 255, 255, 0.175);
+					}
+
+		#footer nav.use-middle:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: calc(50% - 1px);
+			width: 1px;
+			height: 100%;
+			background: #ffffff;
+		}
+
+		#footer nav.use-middle ul li.is-middle {
+			border-left: 0;
 		}
 
 		body.is-article-visible #footer {
