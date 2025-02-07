@@ -1,223 +1,273 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
-	<head>
-		<title>Samuel Vezeau</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="fr">
+    <head>
+        <title>Samuel Vezeau</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript>
+            <link rel="stylesheet" href="assets/css/noscript.css" />
+        </noscript>
+    </head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <body class="is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <div class="lang-buttons">
+                    <button onclick="switchLanguage('en')">English</button>
+                    <button onclick="switchLanguage('fr')">Français</button>
+                </div>
+                <div class="profile">
+                    <img src="images/profile.jfif" alt="" />
+                </div>
+                <nav>
+                    <ul>
+                        <li><a id="nav1" href="#formation"></a></li>
+                        <li><a id="nav2" href="#experience"></a></li>
+                        <li><a id="nav3" href="#passions"></a></li>
+                        <li>
+                            <a
+                                href="https://www.facebook.com/samuel.vezeau.5?mibextid=LQQJ4d"
+                                class="icon brands fa-facebook-f"
+                                target="_blank"
+                                ><span class="label">Facebook</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://ca.linkedin.com/in/samuel-vezeau-8105612b1"
+                                target="_blank"
+                                class="icon brands fa-linkedin"
+                                ><span class="label">Linkedin</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/SamHazVez"
+                                target="_blank"
+                                class="icon brands fa-github"
+                                ><span class="label">GitHub</span></a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <div class="inner">
+                        <section>
+                            <h1>Samuel Vezeau</h1>
+                            <h3 id="education1"></h3>
+                            <h3 id="education2"></h3>
+                            <p id="about"></p>
+                        </section>
+                    </div>
+                    <div class="inner">
+                        <h2 id="actuel"></h2>
+                        <section>
+                            <h3 id="project6title"></h3>
+                            <h4 id="project6type"></h4>
+                            <img class="image icon" src="images/c++.png" alt="c++" />
+                            <img class="image icon" src="images/sfml.png" alt="sfml" />
+                            <p id="project6desc"></p>
+                        </section>
+                        <!-- <section>
+                            <h3 id="project5title"></h3>
+                            <h4 id="project5type"></h4>
+                            <img class="image icon" src="images/drupal.png" alt="" />
+                            <img class="image icon" src="images/php.jpg" alt="" />
+                            <p id="project5desc"></p>
+                        </section> -->
+                    </div>
+                    <div class="inner">
+                        <h2>2025</h2>
+                        <section>
+                            <h3 id="project4title"></h3>
+                            <h4 id="project4type"></h4>
+                            <img class="image icon" src="images/tensorflow.png" alt="" />
+                            <img class="image icon" src="images/python.jpg" alt="" />
+                            <p id="project4desc"></p>
+                            <span class="image example">
+                                <img src="images/tengwar.png" alt="" />
+                            </span>
+                        </section>
+                    </div>
+                    <div class="inner">
+                        <h2>2024</h2>
+                        <section>
+                            <h3 id="project3title"></h3>
+                            <h4 id="project3type"></h4>
+                            <img class="image icon" src="images/java.jpg" alt="" />
+                            <img class="image icon" src="images/javaswing.png" alt="" />
+                            <p id="project3desc"></p>
+                            <span class="image example">
+                                <img src="images/cnc.png" alt="" />
+                            </span>
+                        </section>
+                        <section>
+                            <h3 id="project2title"></h3>
+                            <h4 id="project2type"></h4>
+                            <img class="image icon" src="images/unity.png" alt="" />
+                            <p id="project2desc"></p>
+                            <p id="project2link"></p>
+                            <span class="image example">
+                                <a href="https://soup-master.itch.io/last-stand" target="_blank">
+                                    <img src="images/laststand.png" alt="" />
+                                </a>
+                            </span>
+                        </section>
+                    </div>
+                    <div class="inner">
+                        <h2>2023</h2>
+                        <section>
+                            <h3 id="project1title"></h3>
+                            <h4 id="project1type"></h4>
+                            <img class="image icon" src="images/python.jpg" alt="" />
+                            <img class="image icon" src="images/tensorflow.png" alt="" />
+                            <p id="project1desc"></p>
+                        </section>
+                    </div>
+                </div>
+                
+            </header>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="profile">
-							<img src="images/profile.jfif" alt="" />
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#formation">Formation</a></li>
-								<li><a href="#experience">Expérience</a></li>
-								<li><a href="#passions">Passions</a></li>
-								<li><a href="https://www.facebook.com/samuel.vezeau.5?mibextid=LQQJ4d" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-								<li><a href="https://ca.linkedin.com/in/samuel-vezeau-8105612b1" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://github.com/SamHazVez" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							</ul>
-						</nav>
-						<div class="content">
-							<div class="inner">
-								<h1>Samuel Vezeau</h1>
-								<p>Étudiant au BAC en informatique à l'Université Laval, DEC en techniques de l'informatique</p>
-							</div>
-							<div class="inner">
-								<h2>Projets actuels</h2>
-								<section>
-									<h3>Site d'apprentissage de calligraphies</h3>
-									<h4>Projet individuel | Web</h4>
-									<img class="image icon" src="images/drupal.png" alt="">
-									<img class="image icon" src="images/php.jpg" alt="">
-									<p>
-										J'ai eu l'idée de créer un site qui permettrait d'apprendre de nouveaux alphabets/calligraphies dans 
-										le style de "Duolingo" en utilisant des modèles de reconnaissance optique de caractères (OCR) pour 
-										analyser l'écriture des utilisateurs.
-										J'ai choisi d'utiliser Drupal comme CMS pour le site parce que sa structure par "type de contenu" convient très bien
-										à ce type d'application éducative pour créer différents exercices et tests.
-										Comme défi je vais aussi faire mon propre OCR pour ajouter d'autres alphabets, tels que ceux d'univers fictifs. 
-									</p>
-								</section>
-								<section>
-									<h3>Tengwar OCR</h3>
-									<h4>Projet individuel | Machine learning</h4>
-									<img class="image icon" src="images/tensorflow.png" alt="">
-									<img class="image icon" src="images/python.jpg" alt="">
-									<p>
-										Mon premier modèle OCR créé de toutes pièces pour identifier et traduire du texte écrit dans des alphabets qui 
-										ne sont pas contenus dans la plupart des OCR. J'ai commencé par les inscriptions en Tengwar, l'écriture "elfique"
-										dans l'univers de la Terre du Milieu de JRR Tolkien, que j'ai déjà étudié par temps libre. L'identification individuelle 
-										des caractères est complète avec une précision moyenne de 94%. J'ai créé un algorithme pour diviser des phrases complètes
-										en caractèrs pour commencer à identifier de vrai textes complets. J'ai créé un api pour rendre le projet utilisable
-										par site d'apprentissage de calligraphies. Je travaille actuellement à améliorer la précision du modèle sur des phrases
-										complètes.
-									</p>
-									<span class="image example"><img src="images/tengwar.png" alt=""/></span>
-								</section>
-							</div>	
-							<div class="inner">	
-								<h2>2024</h2>
-								<section>
-									<h3>Logiciel de CNC</h3>
-									<h4>Projet d'équipe | Projet d'études | Conception logicielle</h4>
-									<img class="image icon" src="images/java.jpg" alt="">
-									<img class="image icon" src="images/javaswing.png" alt="">
-									<p>
-										Le projet de session de mon cours de Génie logiciel orienté objet. En équipe de 5 développeurs, 
-										nous devions réaliser toutes les étapes du Processus Unifié pour répondre à une suite de demandes
-										pour un logiciel de CNC pour une scie à panneaux. 
-									</p>
-									<span class="image example"><img src="images/cnc.png" alt=""/></span>
-								</section>
-								<section>
-									<h3>Last Stand - Jeu RTS</h3>
-									<h4>Projet d'équipe | Projet d'études | GameDev</h4>
-									<img class="image icon" src="images/unity.png" alt="">
-									<p>
-										Le projet synthèse de ma Technique de l'Informatique. En équipe de 4 nous avons créé un jeu de stratégie
-										en temps réel de sept niveaux. Comme défi supplémentaire nous l'avons fait en 3D, ce qui a apporté
-										sa propre suite d'éléments complexes. Mais avec des unités et bâtiments variés, un système de vague, 
-										un système de "fog of war" en temps réel et des animations fonctionnelles, le résultat final
-										est impressionnant.
-									</p>
-									<p>Essayez-le au : <a href="https://soup-master.itch.io/last-stand">https://soup-master.itch.io/last-stand</a></p>
-									<span class="image example"><a href="https://soup-master.itch.io/last-stand" target="_blank"><img src="images/laststand.png" alt=""/></a></span>
-								</section>
-							</div>	
-							<div class="inner">		
-								<h2>2023</h2>
-								<section>
-									<h3>Identification d'images</h3>
-									<h4>Projet d'équipe | Projet d'études | Machine learning</h4>
-									<img class="image icon" src="images/python.jpg" alt="">
-									<img class="image icon" src="images/tensorflow.png" alt="">
-									<p>
-										Le projet de session de mon cours d'Innovation et veille technologique. En équipe de 4 nous devions
-										rechercher une technologie et créer chacun un projet prototype sur le sujet. Nous avons choisi 
-										d'explorer les algorithmes de ML d'identification d'objets. J'ai décidé pour mon prototype d'expérimenter
-										avec TensorFlow. J'ai choisi d'utiliser un modèle préentrainé de TensorFlow Hub, puis d'en utiliser
-										plusieurs pour les comparer après avoir écrit l'algorithme en suivant les nombreux tutoriels de TensorFlow.
-									</p>
-								</section>
-							</div>
-							<div class="inner"></div>
-						</div>
-					</header>
+            <!-- Main -->
+            <div id="main">
+                <!-- Formation -->
+                <article id="formation">
+                    <h2 class="major" id="formationtitle"></h2>
+                    <section>
+                        <h3 id="formationdate1"></h3>
+                        <span class="image main">
+                            <a href="https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique" target="_blank">
+                                <img src="images/ulaval.png" alt="" />
+                            </a>
+                        </span>
+                        <h3 id="formationdegree1"></h3>
+                        <a href="https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique">
+                            <u><h4 id="formationprogram1"></h4></u>
+                        </a>
+                        <p id="formationdescription1"></p>
+                    </section>
+                    <section>
+                        <h3 id="formationdate2"></h3>
+                        <span class="image main">
+                            <a href="https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-de-linformatique-programmation-web-mobile-et-jeux-video" target="_blank">
+                                <img src="images/cegep.png" alt="" />
+                            </a>
+                        </span>
+                        <h3 id="formationdegree2"></h3>
+                        <a href="https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-de-linformatique-programmation-web-mobile-et-jeux-video">
+                            <u><h4 id="formationprogram2"></h4></u>
+                        </a>
+                        <p id="formationdescription2"></p>
+                    </section>
+                </article>
+        
+                <!-- Experience -->
+                <article id="experience">
+                    <h2 class="major" id="experiencetitle"></h2>
+                    <section>
+                        <h3 id="experiencedate2"></h3>
+                        <span class="image main">
+                            <img src="images/libeo.png" alt="" />
+                        </span>
+                        <h3 id="experiencecompany2"></h3>
+                        <h4 id="experiencerole2"></h4>
+                        <img class="image icon" src="images/drupal.png" alt="" />
+                        <img class="image icon" src="images/php.jpg" alt="" />
+                        <p id="experiencedescription2"></p>
+                    </section>
+                    <section>
+                        <h3 id="experiencedate1"></h3>
+                        <span class="image main">
+                            <img src="images/amp.png" alt="" />
+                        </span>
+                        <h3 id="experiencecompany1"></h3>
+                        <h4 id="experiencerole1"></h4>
+                        <img class="image icon" src="images/vue.png" alt="" />
+                        <img class="image icon" src="images/typo3.jpeg" alt="" />
+                        <img class="image icon" src="images/powerapps.png" alt="" />
+                        <p id="experiencedescription1"></p>
+                    </section>
+                </article>
+        
+                <!-- Passions -->
+                <article id="passions">
+                    <h2 class="major" id="passionstitle"></h2>
+                    <p id="passionsdescription1"></p>
+                    <p id="passionsdescription2"></p>
+                    <p id="passionsdescription3"></p>
+                    <p>
+                        Construct 3:
+                        <a target="_blank" href="https://www.construct.net/en/free-online-games/profile/soupmaster-617907">
+                            https://www.construct.net/en/free-online-games/profile/soupmaster-617907
+                        </a>
+                    </p>
+                    <p>
+                        Itch.io:
+                        <a target="_blank" href="https://soup-master.itch.io/">
+                            https://soup-master.itch.io/
+                        </a>
+                    </p>
+                    <iframe frameborder="0" src="https://itch.io/embed-upload/7262408?color=2ce8f4" allowfullscreen="" width="500" height="250">
+                        <a href="https://soup-master.itch.io/throw-a-potato">Play Throw a potato on itch.io</a>
+                    </iframe>
+                    <iframe frameborder="0" src="https://itch.io/embed-upload/7266181?color=000000" allowfullscreen="" width="500" height="250">
+                        <a href="https://soup-master.itch.io/executor">Play Executor on itch.io</a>
+                    </iframe>
+                </article>
+            </div>
 
-				<!-- Main -->
-					<div id="main">
+            <!-- Footer -->
+            <footer id="footer">
+                <nav>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.facebook.com/samuel.vezeau.5?mibextid=LQQJ4d"
+                                class="icon brands fa-facebook-f"
+                                target="_blank"
+                                ><span class="label">Facebook</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://ca.linkedin.com/in/samuel-vezeau-8105612b1"
+                                target="_blank"
+                                class="icon brands fa-linkedin"
+                                ><span class="label">Linkedin</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/SamHazVez"
+                                target="_blank"
+                                class="icon brands fa-github"
+                                ><span class="label">GitHub</span></a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
 
-						<!-- Formation -->
-							<article id="formation">
-								<h2 class="major">Formation</h2>
-								<section>
-									<h3>Automne 2024 à aujourd'hui</h3>
-									<span class="image main"><a href="https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique" target="_blank"><img src="images/ulaval.png" alt="" /></a></span>
-									<h3>Baccalauréat en informatique- Université Laval</h3>
-									<a href="https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique"><u><h4>Programme</h4></u></a>
-									<p>
-										Je continue aujourd'hui mon parcours DEC+BAC à l'Université Laval. 
-										J'en suis à ma deuxième session.
-									</p>
-								</section>
-								<section>
-									<h3>Automne 2021 à printemps 2024</h3>
-									<span class="image main"><a href="https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-de-linformatique-programmation-web-mobile-et-jeux-video" target="_blank"><img src="images/cegep.png" alt="" /></a></span>
-									<h3>Techniques de l'informatique - Cégep de Sainte-Foy</h3>
-									<a href="https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-de-linformatique-programmation-web-mobile-et-jeux-video"><u><h4>Programme</h4></u></a>
-									<p>
-										Ma formation au Cégep de Sainte-Foy a été le départ de ma carrière en informatique. J'y ai appris 
-										plus que des languages de programmation, j'y ai appris les bonnes pratiques, l'adaptation et le 
-										travail d'équipe. 
-									</p>
-								</section>
-							</article>
+        <!-- BG -->
+        <div id="bg"></div>
 
-						<!-- Experience -->
-							<article id="experience">
-								<h2 class="major">Expérience</h2>
-								<section>
-									<h3>Mars 2024 à Mai 2024</h3>
-									<span class="image main"><img src="images/libeo.png" alt="" /></span>
-									<h3>Libéo</h3>
-									<h4>Stagiaire en développement web back-end</h4>
-									<img class="image icon" src="images/drupal.png" alt="">
-									<img class="image icon" src="images/php.jpg" alt="">
-									<p>
-										Les possibilités offertes par la grande diversité de projets 
-										de Libéo m'ont convaincu d'y faire mon stage de fin d'études.
-										J'ai développé des modules pour Drupal et intégré des fonctionnalités
-										sur les sites web. J'ai aussi fait un peu de QA en dev.
-									</p>
-								</section>
-								<section>
-									<h3>Mai 2022 à Août 2023</h3>
-									<span class="image main"><img src="images/amp.png" alt="" /></span>
-									<h3>AMP - Autorité des marchés publics</h3>
-									<h4>Stagiaire en programmation web à la direction des technologies de l'information</h4>
-									<img class="image icon" src="images/vue.png" alt="">
-									<img class="image icon" src="images/typo3.jpeg" alt="">
-									<img class="image icon" src="images/powerapps.png" alt="">
-									<p>
-										Mon tout premier emploi dans le domaine de l'informatique. Je mettais mes compétences à
-										l'épreuve pour la première fois. J'ai accompli des tâches qui m'ont permis d'apprendre
-										tout en repoussant mes limites. J'ai créé plusieurs applications Powerapps qui ont servi 
-										de preuves de concept. J'ai travaillé à la refonte d'une calculette de délais en VueJs. 
-										Ces projets m'ont confirmé que le web est un domaine qui m'intéresse.
-									</p>
-								</section>
-								</article>
-
-						<!-- Passions -->
-							<article id="passions">
-								<h2 class="major">Passions</h2>
-								<p>Je fais de la randonnée et je pratique l'escrime depuis maintenant deux ans.</p>
-								<p>Je développe des jeux vidéos depuis le secondaire, où j'ai participé à deux années de la compétition Fusion Jeunesse et remporté des prix</p>
-								<p>Au fil du temps j'ai développé plusieurs jeux vidéos ludiques et légers par moi-même par temps libre. Certains ont obtenu un public dépasssant mes attentes :</p>
-								<p>Arcade Construct 3 : <a target="_blank" href="https://www.construct.net/en/free-online-games/profile/soupmaster-617907">https://www.construct.net/en/free-online-games/profile/soupmaster-617907</a></p>
-								<p>Page itch.io : <a target="_blank" href="https://soup-master.itch.io/">https://soup-master.itch.io/</a></p>
-								<iframe frameborder="0" src="https://itch.io/embed-upload/7262408?color=2ce8f4" allowfullscreen="" width="500" height="250"><a href="https://soup-master.itch.io/throw-a-potato">Play Throw a potato on itch.io</a></iframe>
-								<iframe frameborder="0" src="https://itch.io/embed-upload/7266181?color=000000" allowfullscreen="" width="500" height="250"><a href="https://soup-master.itch.io/executor">Play Executor on itch.io</a></iframe>
-							</article>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<nav>
-							<ul>
-								<li><a href="https://www.facebook.com/samuel.vezeau.5?mibextid=LQQJ4d" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-								<li><a href="https://ca.linkedin.com/in/samuel-vezeau-8105612b1" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://github.com/SamHazVez" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							</ul>
-						</nav>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <!-- Scripts -->
+        <script src="assets/js/translations.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
