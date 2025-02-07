@@ -6,7 +6,7 @@ const translations = {
 
         education1: "Bachelor's student in Computer Science at Université Laval",
         education2: "Diploma in Computer Science from Cégep de Sainte-Foy",
-        about: "I am a highly versatile and independent computer enthusiast. I am currently exploring which branch of computer science I want to start my career in.",
+        about: "I am a highly versatile and autonomous computer enthusiast. I am currently exploring which branch of computer science I want to start my career in.",
         
         actuel: "Current Projects",
         
@@ -49,7 +49,7 @@ const translations = {
         experiencedate2: "March 2024 - May 2024",
         experiencecompany2: "Libéo",
         experiencerole2: "Back-End Web Development Intern",
-        experiencedescription2: "The variety of projects at Libéo convinced me to do my final internship there. I developed Drupal modules and integrated features into websites. I also did some QA testing.",
+        experiencedescription2: "The variety of projects at Libéo convinced me to do my internship there. I developed Drupal modules and integrated features into websites. I also did some QA testing.",
         
         experiencedate1: "May 2022 - August 2023",
         experiencecompany1: "AMP - Autorité des marchés publics",
