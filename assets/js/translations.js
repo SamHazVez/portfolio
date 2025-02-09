@@ -4,7 +4,7 @@ const translations = {
         nav2: "Experience",
         nav3: "Passions",
 
-        education1: "Bachelor's student in Computer Science at Université Laval",
+        education1: "Bachelor’s degree student in Computer Science at Université Laval",
         education2: "Diploma in Computer Science from Cégep de Sainte-Foy",
         about: "I am a highly versatile and autonomous computer enthusiast. I am currently exploring which branch of computer science I want to start my career in.",
         
@@ -37,13 +37,13 @@ const translations = {
     
         formationtitle: "Education",
         formationdate1: "Fall 2024 - Present",
-        formationdegree1: "Bachelor’s in Computer Science - Université Laval",
+        formationdegree1: "Bachelor’s degree student in Computer Science - Université Laval",
         formationprogram1: "Program",
         formationdescription1: "I am currently continuing my DEC+BAC program at Université Laval. I am in my second semester.",
         formationdate2: "Fall 2021 - Spring 2024",
         formationdegree2: "Computer Science Technology - Cégep de Sainte-Foy",
         formationprogram2: "Program",
-        formationdescription2: "My training at Cégep de Sainte-Foy was the start of my career in IT. I learned more than programming languages: I learned best practices, adaptability, and teamwork.",
+        formationdescription2: "My studies at Cégep de Sainte-Foy was the start of my career in IT. I learned more than programming languages: I learned best practices, adaptability, and teamwork. We were rigorously corrected to be at the best of the Clean Code practices and Object Oriented Development. Most of the assignments were given in as User stories and were used to build a Test Driven Development cycle.",
 
         experiencetitle: "Experience",
         experiencedate2: "March 2024 - May 2024",
@@ -56,10 +56,12 @@ const translations = {
         experiencerole1: "Web Development Intern - IT Department",
         experiencedescription1: "My first job in IT. I tested my skills for the first time. I developed PowerApps applications as proof-of-concept projects. I also worked on a Vue.js-based deadline calculator redesign. These projects confirmed my interest in web development.",
 
-        passionstitle: "Passions",
-        passionsdescription1: "I enjoy hiking and have been practicing fencing for two years.",
-        passionsdescription2: "I have been developing video games since high school, where I participated in two years of the Fusion Jeunesse competition and won awards.",
-        passionsdescription3: "Over time, I have created many small and fun games in my free time. Some have reached a wider audience than I expected :"
+        passionstitle1: "The explorer",
+        passionsdescription1: "I enjoy hiking and skiing and have been practicing fencing for two years.",
+        passionstitle2: "The adventurer",
+        passionsdescription2: "My favorite hobby is gaming. As a developper I like to understand the systems behind the games and use it as inspiration for my projects. My favorite genre is RPGs with a focus on immersion, both as old as 2007 or recent. My favorite titles include Cyberpunk 2077, Baldur's Gate 3, The Elder Scrolls, Fallout and Mass Effect.",
+        passionstitle3: "The free time Gamedev",
+        passionsdescription3: "I have been developing video games since high school, where I participated in two years of the Fusion Jeunesse competition and won awards. Over time, I have created many small and fun games in my free time. Some have reached a wider audience than I expected :",
     },
     fr: {
         nav1: "Formation",
@@ -106,7 +108,7 @@ const translations = {
         formationdate2: "Automne 2021 à printemps 2024",
         formationdegree2: "Techniques de l'informatique - Cégep de Sainte-Foy",
         formationprogram2: "Programme",
-        formationdescription2: "Ma formation au Cégep de Sainte-Foy a été le départ de ma carrière en informatique...",
+        formationdescription2: "Ma formation au Cégep de Sainte-Foy a été le départ de ma carrière en informatique. J'y ai appris plus que des langages de programmation : j'ai appris les meilleures pratiques, l'adaptabilité et le travail d'équipe. Nous avons été rigoureusement corrigés pour être au meilleur des pratiques Clean Code et du Développement Orienté Objet. La plupart des travaux ont été confiées sous forme de user stories et ont été utilisées pour construire un cycle de développement piloté par les tests (TDD).",
 
         experiencetitle: "Expérience",
         experiencedate2: "Mars 2024 à Mai 2024",
@@ -119,10 +121,12 @@ const translations = {
         experiencerole1: "Stagiaire en programmation web à la direction des technologies de l'information",
         experiencedescription1: "Mon tout premier emploi dans le domaine de l'informatique. Je mettais mes compétences à l'épreuve pour la première fois. J'ai accompli des tâches qui m'ont permis d'apprendre tout en repoussant mes limites. J'ai créé plusieurs applications Powerapps qui ont servi de preuves de concept. J'ai travaillé à la refonte d'une calculette de délais en VueJs. Ces projets m'ont confirmé que le web est un domaine qui m'intéresse.",
 
-        passionstitle: "Passions",
-        passionsdescription1: "Je fais de la randonnée et je pratique l'escrime depuis maintenant deux ans.",
-        passionsdescription2: "Je développe des jeux vidéos depuis le secondaire, où j'ai participé à deux années de la compétition Fusion Jeunesse et remporté des prix.",
-        passionsdescription3: "Au fil du temps j'ai développé plusieurs jeux vidéos ludiques et légers par moi-même par temps libre. Certains ont obtenu un public dépasssant mes attentes :"
+        passionstitle1: "Actif",
+        passionsdescription1: "Je fais de la randonnée et du ski et je pratique l'escrime depuis maintenant deux ans.",
+        passionstitle2: "Imaginatif",
+        passionsdescription2: "Mon passe-temps préféré est le jeu. En tant que développeur, j'aime comprendre les systèmes derrière les jeux et m'en inspirer pour mes projets. Mon genre préféré est celui des RPG axés sur l'immersion, qu'ils soient aussi anciens que 2007 ou récents. Mes titres préférés incluent Cyberpunk 2077, Baldur's Gate 3, The Elder Scrolls, Fallout et Mass Effect.",
+        passionstitle3: "Inventif",
+        passionsdescription3: "Je développe des jeux vidéos depuis le secondaire, où j'ai participé à deux années de la compétition Fusion Jeunesse et remporté des prix. Au fil du temps j'ai développé plusieurs jeux vidéos ludiques et légers par moi-même par temps libre. Certains ont obtenu un public dépasssant mes attentes :",
     }
 };
 
