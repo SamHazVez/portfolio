@@ -124,7 +124,7 @@ const translations = {
         passionstitle1: "Actif",
         passionsdescription1: "Je fais de la randonnée et du ski et je pratique l'escrime depuis maintenant deux ans.",
         passionstitle2: "Imaginatif",
-        passionsdescription2: "Mon passe-temps préféré est le jeu. En tant que développeur, j'aime comprendre les systèmes derrière les jeux et m'en inspirer pour mes projets. Mon genre préféré est celui des RPG axés sur l'immersion, qu'ils soient aussi anciens que 2007 ou récents. Mes titres préférés incluent Cyberpunk 2077, Baldur's Gate 3, The Elder Scrolls, Fallout et Mass Effect.",
+        passionsdescription2: "Mon passe-temps préféré est les jeux vidéo. En tant que développeur, j'aime comprendre les systèmes derrière les jeux et m'en inspirer pour mes projets. Mon genre préféré est celui des RPG axés sur l'immersion, qu'ils soient aussi anciens que 2007 ou récents. Mes titres préférés incluent Cyberpunk 2077, Baldur's Gate 3, The Elder Scrolls, Fallout et Mass Effect.",
         passionstitle3: "Inventif",
         passionsdescription3: "Je développe des jeux vidéos depuis le secondaire, où j'ai participé à deux années de la compétition Fusion Jeunesse et remporté des prix. Au fil du temps j'ai développé plusieurs jeux vidéos ludiques et légers par moi-même par temps libre. Certains ont obtenu un public dépasssant mes attentes :",
     }
