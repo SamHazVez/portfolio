@@ -10,6 +10,10 @@ const translations = {
         
         actuel: "Current Projects",
         
+        project7title: "Last Stand v2.0",
+        project7type: "Team Project | GameDev",
+        project7desc: "I decided to continue working on Last Stand and turn it into a full game. May improvements will come in future iterations.",
+
         project6title: "RPG System",
         project6type: "Individual Project | GameDev",
         project6desc: "I've always wanted to make an RPG... and improve my C++ skills. So I combined both to create a modular RPG system integrated into SFML. I aim to combine gameplay with complex algorithmic practices, such as implementing my own pathfinding system.",
@@ -74,6 +78,10 @@ const translations = {
         
         actuel: "Projets Actuels",
         
+        project7title: "Last Stand v2.0",
+        project7type: "Projet d'équipe | GameDev",
+        project7desc: "J'ai décidé de continuer à travailler sur Last Stand pour en faire un jeu complet et fini. Je compte ajouter plusieurs améliorations dans les prochaine itérations.",
+
         project6title: "Système de RPG",
         project6type: "Projet individuel | GameDev",
         project6desc: "J'ai toujours voulu faire un RPG... et approfondir mes compétences en C++. Donc, j'ai combiné les deux pour faire un système de RPG organisé par modules que j'intégrerai dans SFML. Je cherche à combiner le gameplay avec des pratiques algorithmiques complexes, comme la mise en œuvre de mon propre système de pathfinding",

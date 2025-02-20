@@ -1361,6 +1361,10 @@ input, select, textarea {
 				padding-right: 20%;
 			}
 
+				#header .content section a h3 {
+					text-decoration: underline;
+				}
+
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
