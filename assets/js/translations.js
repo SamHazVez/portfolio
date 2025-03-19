@@ -60,11 +60,13 @@ const translations = {
         experiencerole1: "Web Development Intern - IT Department",
         experiencedescription1: "My first job in IT. I tested my skills for the first time. I developed PowerApps applications as proof-of-concept projects. I also worked on a Vue.js-based deadline calculator redesign. These projects confirmed my interest in web development.",
 
-        passionstitle1: "The explorer",
+        passionstitle4: "Involved",
+        passionsdescription4: "I am an active member of the Oblivion modding community, helping users create their own customized gaming experience. It requires a lot of research and collaboration with the other members of the community.",
+        passionstitle1: "Active",
         passionsdescription1: "I enjoy hiking and skiing and have been practicing fencing for two years.",
-        passionstitle2: "The adventurer",
+        passionstitle2: "Adventurer",
         passionsdescription2: "My favorite hobby is gaming. As a developper I like to understand the systems behind the games and use it as inspiration for my projects. My favorite genre is RPGs with a focus on immersion, both as old as 2007 or recent. My favorite titles include Cyberpunk 2077, Baldur's Gate 3, The Elder Scrolls, Fallout and Mass Effect.",
-        passionstitle3: "The free time Gamedev",
+        passionstitle3: "Gamedev",
         passionsdescription3: "I have been developing video games since high school, where I participated in two years of the Fusion Jeunesse competition and won awards. Over time, I have created many small and fun games in my free time. Some have reached a wider audience than I expected :",
     },
     fr: {
@@ -129,11 +131,13 @@ const translations = {
         experiencerole1: "Stagiaire en programmation web à la direction des technologies de l'information",
         experiencedescription1: "Mon tout premier emploi dans le domaine de l'informatique. Je mettais mes compétences à l'épreuve pour la première fois. J'ai accompli des tâches qui m'ont permis d'apprendre tout en repoussant mes limites. J'ai créé plusieurs applications Powerapps qui ont servi de preuves de concept. J'ai travaillé à la refonte d'une calculette de délais en VueJs. Ces projets m'ont confirmé que le web est un domaine qui m'intéresse.",
 
+        passionstitle4: "Impliqué",
+        passionsdescription4: "Je suis un membre actif de la communauté de modding d'Oblivion et je guide les utilisateurs à travers la création de leur expérience de jeu personnalisée. Cela demande beaucoup de recherches et de la collaboration avec les autres membres de la communauté.",
         passionstitle1: "Actif",
         passionsdescription1: "Je fais de la randonnée et du ski et je pratique l'escrime depuis maintenant deux ans.",
         passionstitle2: "Imaginatif",
         passionsdescription2: "Mon passe-temps préféré est les jeux vidéo. En tant que développeur, j'aime comprendre les systèmes derrière les jeux et m'en inspirer pour mes projets. Mon genre préféré est celui des RPG axés sur l'immersion, qu'ils soient aussi anciens que 2007 ou récents. Mes titres préférés incluent Cyberpunk 2077, Baldur's Gate 3, The Elder Scrolls, Fallout et Mass Effect.",
-        passionstitle3: "Inventif",
+        passionstitle3: "Gamedev",
         passionsdescription3: "Je développe des jeux vidéos depuis le secondaire, où j'ai participé à deux années de la compétition Fusion Jeunesse et remporté des prix. Au fil du temps j'ai développé plusieurs jeux vidéos ludiques et légers par moi-même par temps libre. Certains ont obtenu un public dépasssant mes attentes :",
     }
 };
