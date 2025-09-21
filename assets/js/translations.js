@@ -9,19 +9,11 @@ const translations = {
         about: "I am a highly versatile and autonomous computer enthusiast. I am currently exploring which branch of computer science I want to start my career in.",
         
         actuel: "Current Projects",
-        
-        project7title: "Last Stand v2.0",
-        project7type: "Team Project | GameDev",
-        project7desc: "I decided to continue working on Last Stand and turn it into a full game. May improvements will come in future iterations.",
 
-        project6title: "RPG System",
-        project6type: "Individual Project | GameDev",
-        project6desc: "I've always wanted to make an RPG... and improve my C++ skills. So I combined both to create a modular RPG system integrated into SFML. I aim to combine gameplay with complex algorithmic practices, such as implementing my own pathfinding system.",
-        
-        project5title: "Calligraphy Learning Website",
-        project5type: "Individual Project | Web",
-        project5desc: "I had the idea of creating a website to help people learn new alphabets and calligraphies in a 'Duolingo' style using Optical Character Recognition (OCR) models. I chose Drupal as the CMS because its content-type structure fits well with creating different exercises and tests. As a challenge, I plan to develop my own OCR to add fictional alphabets as well.",
-        
+        project5title: "Alérion Supermilage",
+        project5type: "Team Project | University Project",
+        project5desc: "",
+
         project4title: "Tengwar OCR",
         project4type: "Individual Project | Machine Learning",
         project4desc: "My first self-built OCR model to identify and translate texts written in alphabets not commonly supported by OCR systems. I started with Tengwar, the 'Elvish' script from J.R.R. Tolkien's Middle-earth. Character recognition is 94% accurate, and I am now working on parsing complete sentences. I also built an API to integrate this into a calligraphy learning website (another future project).",
@@ -60,8 +52,6 @@ const translations = {
         experiencerole1: "Web Development Intern - IT Department",
         experiencedescription1: "My first job in IT. I tested my skills for the first time. I developed PowerApps applications as proof-of-concept projects. I also worked on a Vue.js-based deadline calculator redesign. These projects confirmed my interest in web development.",
 
-        passionstitle4: "Involved",
-        passionsdescription4: "I am an active member of the Oblivion modding community, helping users create their own customized gaming experience. It requires a lot of research and collaboration with the other members of the community.",
         passionstitle1: "Active",
         passionsdescription1: "I enjoy hiking and skiing and have been practicing fencing for two years.",
         passionstitle2: "Adventurer",
@@ -80,17 +70,9 @@ const translations = {
         
         actuel: "Projets Actuels",
         
-        project7title: "Last Stand v2.0",
-        project7type: "Projet d'équipe | GameDev",
-        project7desc: "J'ai décidé de continuer à travailler sur Last Stand pour en faire un jeu complet et fini. Je compte ajouter plusieurs améliorations dans les prochaine itérations.",
-
-        project6title: "Système de RPG",
-        project6type: "Projet individuel | GameDev",
-        project6desc: "J'ai toujours voulu faire un RPG... et approfondir mes compétences en C++. Donc, j'ai combiné les deux pour faire un système de RPG organisé par modules que j'intégrerai dans SFML. Je cherche à combiner le gameplay avec des pratiques algorithmiques complexes, comme la mise en œuvre de mon propre système de pathfinding",
-        
-        project5title: "Site d'apprentissage de calligraphies",
-        project5type: "Projet individuel | Web",
-        project5desc: "J'ai eu l'idée de créer un site qui permettrait d'apprendre de nouveaux alphabets/calligraphies dans le style de \"Duolingo\" en utilisant des modèles de reconnaissance optique de caractères (OCR) pour analyser l'écriture des utilisateurs. J'ai choisi d'utiliser Drupal comme CMS pour le site parce que sa structure par \"type de contenu\" convient très bien à ce type d'application éducative pour créer différents exercices et tests. Comme défi je vais aussi faire mon propre OCR pour ajouter d'autres alphabets, tels que ceux d'univers fictifs.",
+        project5title: "Alérion Supermilage",
+        project5type: "Projet d'équipe | Projet universitaire",
+        project5desc: "",
 
         project4title: "Tengwar OCR",
         project4type: "Projet individuel | Machine learning",
@@ -131,14 +113,13 @@ const translations = {
         experiencerole1: "Stagiaire en programmation web à la direction des technologies de l'information",
         experiencedescription1: "Mon tout premier emploi dans le domaine de l'informatique. Je mettais mes compétences à l'épreuve pour la première fois. J'ai accompli des tâches qui m'ont permis d'apprendre tout en repoussant mes limites. J'ai créé plusieurs applications Powerapps qui ont servi de preuves de concept. J'ai travaillé à la refonte d'une calculette de délais en VueJs. Ces projets m'ont confirmé que le web est un domaine qui m'intéresse.",
 
-        passionstitle4: "Impliqué",
-        passionsdescription4: "Je suis un membre actif de la communauté de modding d'Oblivion et je guide les utilisateurs à travers la création de leur expérience de jeu personnalisée. Cela demande beaucoup de recherches et de la collaboration avec les autres membres de la communauté.",
         passionstitle1: "Actif",
         passionsdescription1: "Je fais de la randonnée et du ski et je pratique l'escrime depuis maintenant deux ans.",
         passionstitle2: "Imaginatif",
         passionsdescription2: "Mon passe-temps préféré est les jeux vidéo. En tant que développeur, j'aime comprendre les systèmes derrière les jeux et m'en inspirer pour mes projets. Mon genre préféré est celui des RPG axés sur l'immersion, qu'ils soient aussi anciens que 2007 ou récents. Mes titres préférés incluent Cyberpunk 2077, Baldur's Gate 3, The Elder Scrolls, Fallout et Mass Effect.",
         passionstitle3: "Gamedev",
         passionsdescription3: "Je développe des jeux vidéos depuis le secondaire, où j'ai participé à deux années de la compétition Fusion Jeunesse et remporté des prix. Au fil du temps j'ai développé plusieurs jeux vidéos ludiques et légers par moi-même par temps libre. Certains ont obtenu un public dépasssant mes attentes :",
+
     }
 };
 
