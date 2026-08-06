@@ -117,8 +117,8 @@ function renderProject(project) {
     const title = t(project.title);
 
     const titleHtml = hasLink
-        ? "<a href=\"" + mainLink + "\" target=\"_blank\" rel=\"noopener noreferrer\"><h3>" + title + "</h3></a>"
-        : "<h3>" + title + "</h3>";
+        ? "<a href=\"" + mainLink + "\" target=\"_blank\" rel=\"noopener noreferrer\"><u><h2>" + title + "</h2></u></a>"
+        : "<h2>" + title + "</h2>";
 
     const imageHtml = project.image
         ? "<span class=\"image example\">"

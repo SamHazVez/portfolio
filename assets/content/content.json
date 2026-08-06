@@ -56,13 +56,36 @@
       "fr": "DEC en Techniques de l'informatique au Cégep de Sainte-Foy"
     },
     "about": {
-      "en": "I am a highly versatile and autonomous computer enthusiast. I am currently exploring which branch of computer science I want to start my career in.",
-      "fr": "Je suis un passionné d'informatique très polyvalent et autonome. Je suis actuellement à un point où je cherche dans quelle branche de l'informatique je souhaite débuter ma carrière."
+      "en": "I am a highly versatile and autonomous computer enthusiast. I am currently at the start of my career, with 5 years of business experience as a cloud and database oriented web development student",
+      "fr": "Je suis un passionné d'informatique très polyvalent et autonome. Je suis actuellement au début de ma carrière, avec 5 ans d'expérience en entreprise comme étudiant en développement web orienté cloud et bases de données"
     }
   },
   "projects": [
     {
-      "year": "current",
+      "year": "2026",
+      "title": {
+        "en": "Travels map",
+        "fr": "Carte de voyages"
+      },
+      "type": {
+        "en": "Individual Project | Web | Cloud",
+        "fr": "Projet individuel | Web | Cloud"
+      },
+      "description": {
+        "en": "I've always wanted to share my travels with my loved ones without having to scroll through all my photos one by one, letting them discover the destinations gradually. I took the opportunity to explore React and follow tutorials on Leaflet. I'm very happy with the result; it's lightweight, simple, and very easy to maintain for my future destinations!",
+        "fr": "J'ai toujours voulu présenter mes voyages à mes proches sans avoir à passer à travers toutes mes photos et leur laisser plutôt découvrir les destinations. J'en ai profité pour explorer React et suivre des tutoriels sur Leaflet. Je suis très satisfait du résultat, il est léger, simple et très facile à maintenir avec mes prochaines destinations ! Les images sont stockées dans un Bucket R2 et servies par un worker depuis mon propre domaine. C'est le premier projet pour lequel j'expérimente avec des technologies cloud (et surement pas le dernier)"
+      },
+      "technologies": [
+        { "name": "React", "image": "images/react.png" },
+        { "name": "Cloudflare", "image": "images/cloudflare.png" }
+      ],
+      "links": [
+        { "url": "https://github.com/SamHazVez/voyage", "type": "github" }
+      ],
+      "image": "images/voyage.png"
+    },
+    {
+      "year": "2026",
       "title": {
         "en": "Alérion Supermilage",
         "fr": "Alérion Supermilage"
@@ -72,8 +95,8 @@
         "fr": "Projet d'équipe | Projet universitaire"
       },
       "description": {
-        "en": "",
-        "fr": ""
+        "en": "I joined the Alérion supermilage in their code performance improvement project",
+        "fr": "J'ai rejoint l'Alérion supermilage dans leur projet d'amélioration des performances du code"
       },
       "technologies": [
         { "name": "C++", "image": "images/c++.png" }
@@ -82,48 +105,24 @@
       "image": null
     },
     {
-      "year": "current",
+      "year": "2026",
       "title": {
         "en": "MeteoSensei",
         "fr": "MétéoSensei"
       },
       "type": {
-        "en": "Individual Project | Web",
-        "fr": "Projet individuel | Web"
+        "en": "Individual Project | Web | WIP",
+        "fr": "Projet individuel | Web | WIP"
       },
       "description": {
         "en": "Using my React travel map as a foundation, I built a 100% frontend weather application deployable on GitHub Pages. Using government data from ECCC via an RSS feed (so no API key is displayed!), the application notifies the user when it rains in monitored areas. Various themes are available to customize the application.",
-        "fr": "En utilisant ma carte de voyages React comme base j'ai construit une application météo 100% frontend déployable sur Github pages. En utilisant les données gouvernementales de ECCC depuis un flux RSS (donc pas de clé API affichée!), l'application notifie l'utilisateur en cas de pluie dans les régions surveillées. Différent thèmes sont disponible pour personnaliser l'application"
+        "fr": "En utilisant ma carte de voyages React comme base j'ai construit une application météo 100% frontend déployable sur Github pages. En utilisant les données gouvernementales de ECCC depuis un flux RSS (donc pas de clé API affichée), l'application notifie l'utilisateur en cas de pluie dans les régions surveillées. Différent thèmes sont disponible pour personnaliser l'application"
       },
       "technologies": [
         { "name": "React", "image": "images/react.png" }
       ],
-      "links": [
-        { "url": "https://github.com/SamHazVez/MeteoSensei", "type": "github" }
-      ],
-      "image": "images/meteosensei.png"
-    },
-    {
-      "year": "2025",
-      "title": {
-        "en": "Travels map",
-        "fr": "Carte de voyages"
-      },
-      "type": {
-        "en": "Individual Project | Web",
-        "fr": "Projet individuel | Web"
-      },
-      "description": {
-        "en": "I've always wanted to share my travels with my loved ones without having to scroll through all my photos one by one, letting them discover the destinations gradually. I took the opportunity to explore React and follow tutorials on Leaflet. I'm very happy with the result; it's lightweight, simple, and very easy to maintain for my future destinations!",
-        "fr": "J'ai toujours voulu présenter mes voyages à mes proches sans avoir à passer à travers toutes mes photos une par une et leur laisser plutôt découvrir les destinations une par unes. J'en ai profité pour explorer React et suivre des tutoriels sur Leaflet. Je suis très satisfait du résultat, il est léger, simple et très facile à maintenir avec mes prochaines destinations !"
-      },
-      "technologies": [
-        { "name": "React", "image": "images/react.png" }
-      ],
-      "links": [
-        { "url": "https://github.com/SamHazVez/voyage", "type": "github" }
-      ],
-      "image": "images/voyage.png"
+      "links": [],
+      "image": null
     },
     {
       "year": "2025",
