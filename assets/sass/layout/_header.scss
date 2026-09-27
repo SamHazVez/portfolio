@@ -75,7 +75,7 @@
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
-				padding: 3rem 1rem;
+				padding: 2.5rem 1rem;
 				max-height: 40rem;
 				overflow: hidden;
 
@@ -91,13 +91,19 @@
 				line-height: 2;
 			}
 
+			section {
+				margin-bottom: 2rem;
+				padding: 0;
+			}
+
 			.project-group {
 				background-color: _palette(bg);
 				border: solid _size(border-width) _palette(border-bg-alt);
 				border-radius: (_size(border-radius) * 2);
+				padding: 2rem 1rem;
 
 				& + .project-group {
-					margin-top: 2rem;
+					margin-top: 1rem;
 				}
 			}
 
@@ -105,9 +111,10 @@
 				background-color: _palette(bg);
 				border: solid _size(border-width) _palette(border-bg-alt);
 				border-radius: (_size(border-radius) * 2);
+				padding: 2rem 1rem;
 
 				& + .project-group {
-					margin-top: 2rem;
+					margin-top: 1rem;
 				}
 			}
 		}
