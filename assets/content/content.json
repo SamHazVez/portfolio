@@ -48,8 +48,8 @@
   },
   "introduction": {
     "educationLine1": {
-      "en": "Bachelor's degree student in Computer Science at Université Laval",
-      "fr": "Étudiant au BAC en informatique à l'Université Laval"
+      "en": "Bachelor's degree in Computer Science at Université Laval",
+      "fr": "BAC en informatique à l'Université Laval"
     },
     "educationLine2": {
       "en": "Diploma in Computer Science from Cégep de Sainte-Foy",
@@ -223,7 +223,7 @@
     {
       "period": {
         "en": "Fall 2024 - Present",
-        "fr": "Automne 2024 à aujourd'hui"
+        "fr": "Août 2024 à décembre 2026"
       },
       "institution": "Université Laval",
       "degree": {
@@ -266,13 +266,13 @@
   "experience": [
     {
       "period": {
-        "en": "March 2025 - Today",
-        "fr": "Mars 2025 à aujourd'hui"
+        "en": "March 2025 - December 2026",
+        "fr": "Mars 2025 à Décembre 2026"
       },
       "company": "MAMH - Ministère des Affaires Municipales et de l'Habitation",
       "role": {
-        "en": "Student programmer analyst",
-        "fr": "Étudiant programmeur analyste"
+        "en": ".Net programmer analyst",
+        "fr": "Analyste programmeur .Net"
       },
       "description": {
         "en": "This highly rewarding experience allowed me to further develop as a developer by offering challenges and guidance that align very well with a university-level internship. I worked with a remarkable team that always strives for quality and efficiency in its projects.",
@@ -333,8 +333,8 @@
         "fr": "Actif"
       },
       "description": {
-        "en": "I enjoy hiking and skiing and have been practicing fencing for two years.",
-        "fr": "Je fais de la randonnée et du ski et je pratique l'escrime depuis maintenant deux ans."
+        "en": "I enjoy hiking and skiing and have been practicing fencing for three years.",
+        "fr": "Je fais de la randonnée et du ski et je pratique l'escrime depuis maintenant trois ans."
       }
     },
     {

@@ -75,7 +75,7 @@
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
-				padding: 3rem 2rem;
+				padding: 3rem 1rem;
 				max-height: 40rem;
 				overflow: hidden;
 
@@ -89,6 +89,26 @@
 				letter-spacing: _font(letter-spacing);
 				font-size: 0.8rem;
 				line-height: 2;
+			}
+
+			.project-group {
+				background-color: _palette(bg);
+				border: solid _size(border-width) _palette(border-bg-alt);
+				border-radius: (_size(border-radius) * 2);
+
+				& + .project-group {
+					margin-top: 2rem;
+				}
+			}
+
+			.inner:first-child {
+				background-color: _palette(bg);
+				border: solid _size(border-width) _palette(border-bg-alt);
+				border-radius: (_size(border-radius) * 2);
+
+				& + .project-group {
+					margin-top: 2rem;
+				}
 			}
 		}
 
@@ -111,6 +131,7 @@
 
 					a {
 						display: block;
+						background-color: _palette(bg);
 						min-width: 7.5rem;
 						height: 2.75rem;
 						line-height: 2.75rem;
@@ -210,7 +231,7 @@
 
 			.content {
 				.inner {
-					padding: 2.5rem 1rem;
+					padding: 2.5rem 0.75rem;
 				}
 
 				p {

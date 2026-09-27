@@ -17,6 +17,10 @@
 		margin-top: 2rem;
 		text-align: center;
 
+		nav a {
+			background-color: _palette(bg);
+		}
+
 		.copyright {
 			letter-spacing: _font(letter-spacing);
 			font-size: 0.6rem;

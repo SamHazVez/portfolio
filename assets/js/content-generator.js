@@ -175,7 +175,7 @@ function renderHomeContent() {
     ].join("");
 
     if (projectGroups.current && projectGroups.current.length > 0) {
-        html += "<div class=\"inner\"><h2>" + currentTitle + "</h2>";
+        html += "<div class=\"inner project-group\"><h2>" + currentTitle + "</h2>";
         html += projectGroups.current.map(renderProject).join("");
         html += "</div>";
     }
@@ -189,7 +189,7 @@ function renderHomeContent() {
         });
 
     years.forEach(function(year) {
-        html += "<div class=\"inner\"><h2>" + year + "</h2>";
+        html += "<div class=\"inner project-group\"><h2>" + year + "</h2>";
         html += projectGroups[year].map(renderProject).join("");
         html += "</div>";
     });
