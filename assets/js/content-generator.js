@@ -12,23 +12,18 @@ const dom = {
     languageButtons: []
 };
 
-function t(value, fallback) {
-    if (value == null) return fallback || "";
-    if (typeof value === "string") return value;
-    return value[currentLanguage] || value.fr || value.en || fallback || "";
-}
-
-function isVisible(item) {
-    return !item || item.visible !== false;
+function t(value) {
+    return typeof value === "string" ? value : value[currentLanguage];
 }
 
 function sectionIsVisible(sectionName) {
-    if (!portfolioContent || !portfolioContent.visibility) return true;
     return portfolioContent.visibility[sectionName] !== false;
 }
 
 function getVisibleItems(items) {
-    return (items || []).filter(isVisible);
+    return items.filter(function(item) {
+        return item.visible !== false;
+    });
 }
 
 function initializeLanguage() {
@@ -38,9 +33,8 @@ function initializeLanguage() {
     } catch (error) {
         preferred = null;
     }
-    const fallback = portfolioContent.settings && portfolioContent.settings.defaultLanguage ? portfolioContent.settings.defaultLanguage : "fr";
-    const supported = portfolioContent.settings && portfolioContent.settings.supportedLanguages ? portfolioContent.settings.supportedLanguages : ["fr", "en"];
-    currentLanguage = supported.includes(preferred) ? preferred : fallback;
+    const { defaultLanguage, supportedLanguages } = portfolioContent.settings;
+    currentLanguage = supportedLanguages.includes(preferred) ? preferred : defaultLanguage;
     document.documentElement.lang = currentLanguage;
 }
 
@@ -69,7 +63,6 @@ function generateSocialLinks(links) {
 
 function updateNavLayoutClasses() {
     if (!dom.headerNav) return;
-
     const navItems = Array.from(dom.headerNav.querySelectorAll("li"));
     navItems.forEach(function(item) {
         item.classList.remove("is-middle");
@@ -86,7 +79,7 @@ function updateNavLayoutClasses() {
 function renderNavigation() {
     if (!dom.headerNavList) return;
 
-    const navItems = getVisibleItems((portfolioContent.ui && portfolioContent.ui.navigation) || []).filter(function(item) {
+    const navItems = getVisibleItems(portfolioContent.ui.navigation).filter(function(item) {
         const id = (item.href || "").replace("#", "");
         return !id || sectionIsVisible(id);
     });
@@ -161,7 +154,7 @@ function renderHomeContent() {
 
     const intro = portfolioContent.introduction;
     const projectGroups = groupProjectsByYear();
-    const currentTitle = portfolioContent.ui && portfolioContent.ui.currentProjectsTitle ? t(portfolioContent.ui.currentProjectsTitle) : "";
+    const currentTitle = t(portfolioContent.ui.currentProjectsTitle);
 
     let html = [
         "<div class=\"inner\">",
@@ -315,8 +308,7 @@ function renderAll() {
 
 function switchLanguage(lang) {
     if (!portfolioContent) return;
-    const supported = portfolioContent.settings && portfolioContent.settings.supportedLanguages ? portfolioContent.settings.supportedLanguages : ["fr", "en"];
-    if (!supported.includes(lang)) return;
+    if (!portfolioContent.settings.supportedLanguages.includes(lang)) return;
 
     currentLanguage = lang;
     try {
@@ -334,46 +326,6 @@ function bindLanguageButtons() {
             switchLanguage(lang);
         });
     });
-}
-
-function validateTranslations() {
-    if (!portfolioContent) return;
-    const supported = portfolioContent.settings && portfolioContent.settings.supportedLanguages ? portfolioContent.settings.supportedLanguages : ["fr", "en"];
-    const missingKeys = [];
-
-    function walk(node, path) {
-        if (!node || typeof node !== "object") return;
-        if (Array.isArray(node)) {
-            node.forEach(function(item, index) {
-                walk(item, path + "[" + index + "]");
-            });
-            return;
-        }
-
-        const keys = Object.keys(node);
-        const isTranslationNode = supported.every(function(lang) {
-            return keys.includes(lang);
-        });
-
-        if (isTranslationNode) {
-            supported.forEach(function(lang) {
-                if (!node[lang]) {
-                    missingKeys.push(path + "." + lang);
-                }
-            });
-            return;
-        }
-
-        keys.forEach(function(key) {
-            walk(node[key], path ? path + "." + key : key);
-        });
-    }
-
-    walk(portfolioContent, "portfolioContent");
-
-    if (missingKeys.length > 0) {
-        console.warn("Missing translations:", missingKeys);
-    }
 }
 
 window.switchLanguage = switchLanguage;
@@ -404,7 +356,6 @@ document.addEventListener("DOMContentLoaded", function() {
             initializeLanguage();
             bindLanguageButtons();
             renderAll();
-            validateTranslations();
         })
         .catch(function(error) {
             renderLoadError(error.message || "Unknown error while loading content");
