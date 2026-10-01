@@ -72,8 +72,8 @@
         "fr": "Projet individuel | Web | Cloud"
       },
       "description": {
-        "en": "I've always wanted to share my travels with my loved ones without having to scroll through all my photos one by one, letting them discover the destinations gradually. I took the opportunity to explore React and follow tutorials on Leaflet. I'm very happy with the result; it's lightweight, simple, and very easy to maintain for my future destinations!",
-        "fr": "J'ai toujours voulu présenter mes voyages à mes proches sans avoir à passer à travers toutes mes photos et leur laisser plutôt découvrir les destinations. J'en ai profité pour explorer React et suivre des tutoriels sur Leaflet. Je suis très satisfait du résultat, il est léger, simple et très facile à maintenir avec mes prochaines destinations ! Les images sont stockées dans un Bucket R2 et servies par un worker depuis mon propre domaine. C'est le premier projet pour lequel j'expérimente avec des technologies cloud (et surement pas le dernier)"
+        "en": "I designed this React application to present my travels interactively and let visitors discover each destination gradually. I developed the map interface with Leaflet, structured the data to make future trips easy to add, and focused on keeping the application lightweight and maintainable. The images are stored in an R2 bucket and delivered through a Worker from my own domain. This project strengthened my skills in frontend development, cloud service integration, and designing a solution that is easy to evolve.",
+        "fr": "J'ai conçu cette application React pour présenter mes voyages de façon interactive et permettre de découvrir progressivement chaque destination. J'ai développé l'interface cartographique avec Leaflet, structuré les données pour faciliter l'ajout de futurs voyages et travaillé à conserver une application légère et facile à maintenir. Les images sont stockées dans un bucket R2 et distribuées par un Worker depuis mon propre domaine. Ce projet m'a permis de renforcer mes compétences en développement frontend, en intégration de services cloud et en conception d'une solution simple à faire évoluer."
       },
       "technologies": [
         { "name": "React", "image": "images/react.png" },
@@ -95,8 +95,8 @@
         "fr": "Projet d'équipe | Projet universitaire"
       },
       "description": {
-        "en": "I joined the Alérion supermilage in their code performance improvement project",
-        "fr": "J'ai rejoint l'Alérion supermilage dans leur projet d'amélioration des performances du code"
+        "en": "I joined the Alérion Supermileage team for a C++ project focused on improving code performance. My contribution involves analyzing the application's behavior, identifying costly operations, and proposing measurable optimizations. This experience has strengthened my ability to analyze code, reason about solution efficiency, and collaborate on an existing codebase.",
+        "fr": "J'ai rejoint l'équipe d'Alérion Supermileage dans un projet d'amélioration des performances du code en C++. Ma contribution consiste à analyser le comportement de l'application, à repérer les parties coûteuses et à proposer des optimisations mesurables. Cette expérience a développé ma capacité à analyser du code, à raisonner sur l'efficacité d'une solution et à collaborer sur une base de code existante."
       },
       "technologies": [
         { "name": "C++", "image": "images/c++.png" }
@@ -115,8 +115,8 @@
         "fr": "Projet individuel | Web | WIP"
       },
       "description": {
-        "en": "Using my React travel map as a foundation, I built a 100% frontend weather application deployable on GitHub Pages. Using government data from ECCC via an RSS feed (so no API key is displayed!), the application notifies the user when it rains in monitored areas. Various themes are available to customize the application.",
-        "fr": "En utilisant ma carte de voyages React comme base j'ai construit une application météo 100% frontend déployable sur Github pages. En utilisant les données gouvernementales de ECCC depuis un flux RSS (donc pas de clé API affichée), l'application notifie l'utilisateur en cas de pluie dans les régions surveillées. Différent thèmes sont disponible pour personnaliser l'application"
+        "en": "Using my travel map's architecture as a foundation, I developed a 100% frontend weather application deployable on GitHub Pages. I integrated government data from Environment and Climate Change Canada through an RSS feed, then built the processing needed to monitor several regions and notify users when it rains. I also added several customizable themes. This project deepened my knowledge of React, external data consumption, state management, and the design of a standalone application without exposing an API key.",
+        "fr": "À partir de l'architecture de ma carte de voyages, j'ai développé une application météo 100 % frontend déployable sur GitHub Pages. J'ai intégré les données gouvernementales d'Environnement et Changement climatique Canada à partir d'un flux RSS, puis conçu le traitement nécessaire pour surveiller plusieurs régions et avertir l'utilisateur lorsqu'il pleut. J'ai également ajouté différents thèmes personnalisables. Ce projet m'a permis d'approfondir React, la consommation de données externes, la gestion d'état et la conception d'une application autonome sans exposer de clé API."
       },
       "technologies": [
         { "name": "React", "image": "images/react.png" }
@@ -135,8 +135,8 @@
         "fr": "Projet individuel | Machine learning"
       },
       "description": {
-        "en": "My first self-built OCR model to identify and translate texts written in alphabets not commonly supported by OCR systems. I started with Tengwar, the 'Elvish' script from J.R.R. Tolkien's Middle-earth. Character recognition is 94% accurate, and I am now working on parsing complete sentences. I also built an API to integrate this into a calligraphy learning website (another future project).",
-        "fr": "Mon premier modèle OCR créé de toutes pièces pour identifier et traduire du texte écrit dans des alphabets qui ne sont pas contenus dans la plupart des OCR. J'ai commencé par les inscriptions en Tengwar, l'écriture \"elfique\" dans l'univers de la Terre du Milieu de JRR Tolkien, que j'ai déjà étudié par temps libre. L'identification individuelle des caractères est complète avec une précision moyenne de 94%. J'ai créé un algorithme pour diviser des phrases complètes en caractèrs pour commencer à identifier de vrai textes complets. J'ai créé un api pour rendre le projet utilisable par site un d'apprentissage de calligraphies (un autre projet qui suivra celui-ci). Je travaille actuellement à améliorer la précision du modèle sur des phrases complètes."
+        "en": "I built an OCR model from scratch to identify Tengwar characters, a writing system that is not widely supported by conventional OCR systems. I prepared the data, trained the model, and evaluated its results, achieving an average accuracy of 94% for individual character recognition. I also designed a segmentation algorithm to analyze complete sentences and created an API to make the model reusable in a future calligraphy-learning website. This project helped me develop my skills in Python, machine learning, model evaluation, and API design.",
+        "fr": "J'ai développé de toutes pièces un modèle OCR capable d'identifier des caractères en Tengwar, une écriture peu prise en charge par les systèmes OCR courants. J'ai préparé les données, entraîné le modèle et évalué ses résultats, avec une précision moyenne de 94 % pour la reconnaissance individuelle des caractères. J'ai aussi conçu un algorithme de segmentation pour analyser des phrases complètes et créé une API afin de rendre le modèle réutilisable dans un futur site d'apprentissage de la calligraphie. Ce projet m'a permis de développer mes compétences en Python, en apprentissage automatique, en évaluation de modèles et en conception d'API."
       },
       "technologies": [
         { "name": "TensorFlow", "image": "images/tensorflow.png" },
@@ -158,8 +158,8 @@
         "fr": "Projet d'équipe | Projet d'études | Conception logicielle"
       },
       "description": {
-        "en": "A semester-long project for my Object-Oriented Software Engineering course. In a team of 5 developers, we followed the Unified Process methodology to develop a CNC software for a panel saw based on a series of client requirements.",
-        "fr": "Le projet de session de mon cours de Génie logiciel orienté objet. En équipe de 5 développeurs, nous devions réaliser toutes les étapes du Processus Unifié pour répondre à une suite de demandes pour un logiciel de CNC pour une scie à panneaux."
+        "en": "For my Object-Oriented Software Engineering course, I contributed to developing CNC software for a panel saw based on a series of client requirements. In a team of five developers, we completed the different stages of the Unified Process: requirements analysis, design, implementation, testing, and iteration tracking. This project allowed me to apply object-oriented design, build a Java Swing application, and collaborate within a structured development team.",
+        "fr": "Dans le cadre de mon cours de génie logiciel orienté objet, j'ai participé au développement d'un logiciel de CNC pour une scie à panneaux, à partir d'une série de besoins client. En équipe de cinq développeurs, nous avons réalisé les différentes étapes du Processus Unifié : analyse des besoins, conception, implémentation, tests et suivi des itérations. Ce projet m'a permis de mettre en pratique la conception orientée objet, la production d'une application Java Swing et la collaboration au sein d'une équipe structurée."
       },
       "technologies": [
         { "name": "Java", "image": "images/java.jpg" },
@@ -181,8 +181,8 @@
         "fr": "Projet d'équipe | Projet d'études | GameDev"
       },
       "description": {
-        "en": "A capstone project from my Computer Science diploma. In a team of 4, we developed a real-time strategy game with seven levels. We challenged ourselves by making it in 3D, introducing additional complexity. The game features various units, buildings, real-time fog of war, and functional animations.",
-        "fr": "Le projet synthèse de ma Technique de l'Informatique. En équipe de 4 nous avons créé un jeu de stratégie en temps réel de sept niveaux. Comme défi supplémentaire nous l'avons fait en 3D, ce qui a apporté sa propre suite d'éléments complexes. Mais avec des unités et bâtiments variés, un système de vague, un système de \"fog of war\" en temps réel et des animations fonctionnelles, le résultat final est impressionnant."
+        "en": "For my Computer Science diploma capstone project, I contributed to the design and development of a 3D real-time strategy game with seven levels. Working in a team of four, I helped integrate gameplay systems such as units, buildings, enemy waves, real-time fog of war, and animations. This project strengthened my skills in C#, Unity, interactive behavior systems, and coordinating a complex software project.",
+        "fr": "Pour mon projet synthèse en Techniques de l'informatique, j'ai contribué à la conception et au développement d'un jeu de stratégie en temps réel en 3D, composé de sept niveaux. J'ai travaillé avec une équipe de quatre personnes sur l'intégration de systèmes de jeu comme les unités, les bâtiments, les vagues d'ennemis, le fog of war en temps réel et les animations. Ce projet m'a permis de renforcer mes compétences en C#, en Unity, en programmation de systèmes de comportement et en coordination d'un projet logiciel complexe."
       },
       "extraLink": {
         "en": "Try it out at: <a href=\"https://soup-master.itch.io/last-stand\">https://soup-master.itch.io/last-stand</a>",
@@ -208,8 +208,8 @@
         "fr": "Projet d'équipe | Projet d'études | Machine learning"
       },
       "description": {
-        "en": "A research project for my Innovation and Technology Watch course. In a team of 4, we explored object recognition algorithms in machine learning. I experimented with TensorFlow, using and comparing different pre-trained models after following TensorFlow tutorials.",
-        "fr": "Le projet de session de mon cours d'Innovation et veille technologique. En équipe de 4 nous devions rechercher une technologie et créer chacun un projet prototype sur le sujet. Nous avons choisi d'explorer les algorithmes de ML d'identification d'objets. J'ai décidé pour mon prototype d'expérimenter avec TensorFlow. J'ai choisi d'utiliser un modèle préentrainé de TensorFlow Hub, puis d'en utiliser plusieurs pour les comparer après avoir écrit l'algorithme en suivant les nombreux tutoriels de TensorFlow."
+        "en": "For my Innovation and Technology Watch course, I studied object-recognition algorithms in machine learning with a team of four. I built a prototype with TensorFlow, integrated several pre-trained models from TensorFlow Hub, and compared their results. This work helped me develop my skills in technology research, experimentation, model comparison, and rapid prototyping.",
+        "fr": "Dans le cadre de mon cours d'innovation et de veille technologique, j'ai étudié les algorithmes d'identification d'objets en apprentissage automatique avec une équipe de quatre personnes. J'ai réalisé un prototype avec TensorFlow, intégré plusieurs modèles préentraînés provenant de TensorFlow Hub et comparé leurs résultats. Cette démarche m'a permis de développer mes compétences en recherche technologique, en expérimentation, en analyse comparative de modèles et en mise en œuvre rapide d'un prototype."
       },
       "technologies": [
         { "name": "Python", "image": "images/python.jpg" },
@@ -236,8 +236,8 @@
       },
       "programLink": "https://www.ulaval.ca/etudes/programmes/baccalaureat-en-informatique",
       "description": {
-        "en": "I am currently continuing my DEC+BAC program at Université Laval. I am in my second semester.",
-        "fr": "Je continue aujourd'hui mon parcours DEC+BAC à l'Université Laval. J'en suis à ma deuxième session."
+        "en": "I am pursuing a DEC-BAC pathway in Computer Science at Université Laval, where I am deepening my skills in software development, systems design, and problem-solving. This program allows me to consolidate the knowledge acquired in college and apply it to more complex university projects.",
+        "fr": "Je poursuis mon parcours DEC-BAC en informatique à l'Université Laval, où j'approfondis mes compétences en développement logiciel, en conception de systèmes et en résolution de problèmes. Cette formation me permet de consolider les notions acquises au cégep et de les appliquer dans des projets universitaires plus complexes."
       },
       "logo": "images/ulaval.png"
     },
@@ -257,8 +257,8 @@
       },
       "programLink": "https://www.csfoy.ca/programmes/tous-les-programmes/programmes-techniques/techniques-de-linformatique-programmation-web-mobile-et-jeux-video",
       "description": {
-        "en": "My studies at Cégep de Sainte-Foy was the start of my career in IT. I learned more than programming languages: I learned best practices, adaptability, and teamwork. We were rigorously corrected to be at the best of the Clean Code practices and Object Oriented Development. Most of the assignments were given in as User stories and were used to build a Test Driven Development cycle.",
-        "fr": "Ma formation au Cégep de Sainte-Foy a été le départ de ma carrière en informatique. J'y ai appris plus que des langages de programmation : j'ai appris les meilleures pratiques, l'adaptabilité et le travail d'équipe. Nous avons été rigoureusement corrigés pour être au meilleur des pratiques Clean Code et du Développement Orienté Objet. La plupart des travaux ont été confiées sous forme de user stories et ont été utilisées pour construire un cycle de développement piloté par les tests (TDD)."
+        "en": "My studies at Cégep de Sainte-Foy laid the foundation for my career in IT. I developed skills in programming, object-oriented development, and application design while applying Clean Code principles. Assignments were generally organized as user stories and completed through a test-driven development (TDD) cycle. This program also taught me adaptability, teamwork, and how to deliver reliable solutions in a project environment.",
+        "fr": "Ma formation au Cégep de Sainte-Foy a posé les bases de ma carrière en informatique. J'y ai développé des compétences en programmation, en développement orienté objet et en conception d'applications, tout en appliquant les principes de Clean Code. Les travaux étaient généralement organisés sous forme de user stories et réalisés dans un cycle de développement piloté par les tests (TDD). Cette formation m'a aussi appris à m'adapter, à travailler en équipe et à livrer des solutions fiables dans un contexte de projet."
       },
       "logo": "images/cegep.png"
     }
@@ -275,8 +275,8 @@
         "fr": "Analyste programmeur .Net"
       },
       "description": {
-        "en": "This highly rewarding experience allowed me to further develop as a developer by offering challenges and guidance that align very well with a university-level internship. I worked with a remarkable team that always strives for quality and efficiency in its projects.",
-        "fr": "Cette expérience très valorisante m'a permis de me développer davantage en tant que développeur en m'offrant des défis et conseils qui correspondent très bien à un stage de niveau universitaire. J'ai travaillé avec une équipe formidable qui cherche toujours la qualité et l'efficacité dans les projets."
+        "en": "At MAMH, I contribute to the development and evolution of .NET solutions in a professional environment focused on quality and efficiency. I perform functional testing, write and execute my own database scripts, and take responsibility for moving them through to delivery. This experience has strengthened my autonomy, attention to quality, and understanding of deployment, change promotion, and team-work synchronization. It has also taught me to track task progress while accounting for code accumulation and integration constraints.",
+        "fr": "Au sein du MAMH, je contribue au développement et à l'évolution de solutions .NET dans un contexte professionnel axé sur la qualité et l'efficacité. Je réalise des tests fonctionnels, j'écris et j'exécute mes propres scripts de base de données, puis je prends en charge leur progression jusqu'à la livraison. Cette expérience m'a permis de développer mon autonomie, mon souci de la qualité et ma compréhension du déploiement, de la graduation des changements et de la synchronisation du travail d'équipe. Elle m'a aussi appris à suivre l'avancement des tâches tout en tenant compte de l'accumulation de code et des contraintes d'intégration."
       },
       "logo": "images/mamh.png",
       "technologies": [
@@ -295,8 +295,8 @@
         "fr": "Stagiaire en développement web back-end"
       },
       "description": {
-        "en": "The variety of projects at Libéo convinced me to do my internship there. I developed Drupal modules and integrated features into websites. I also did some QA testing.",
-        "fr": "Les possibilités offertes par la grande diversité de projets de Libéo m'ont convaincu d'y faire mon stage de fin d'études. J'ai développé des modules pour Drupal et intégré des fonctionnalités sur les sites web. J'ai aussi fait un peu de QA en dev."
+        "en": "During my final internship at Libéo, I developed Drupal modules and integrated new features into several websites. I contributed to requirements analysis, feature implementation, and verification through quality-assurance testing. This experience strengthened my skills in PHP back-end development, web integration, and adapting to varied projects and environments.",
+        "fr": "Lors de mon stage de fin d'études chez Libéo, j'ai développé des modules Drupal et intégré de nouvelles fonctionnalités sur différents sites web. J'ai participé à l'analyse des besoins, à l'implémentation des fonctionnalités et à leur vérification par des tests d'assurance qualité. Cette expérience m'a permis de renforcer mes compétences en développement back-end PHP, en intégration web et en adaptation à des projets et des environnements variés."
       },
       "logo": "images/libeo.png",
       "technologies": [
@@ -315,8 +315,8 @@
         "fr": "Stagiaire en programmation web à la direction des technologies de l'information"
       },
       "description": {
-        "en": "My first job in IT. I tested my skills for the first time. I developed PowerApps applications as proof-of-concept projects. I also worked on a Vue.js-based deadline calculator redesign. These projects confirmed my interest in web development.",
-        "fr": "Mon tout premier emploi dans le domaine de l'informatique. Je mettais mes compétences à l'épreuve pour la première fois. J'ai accompli des tâches qui m'ont permis d'apprendre tout en repoussant mes limites. J'ai créé plusieurs applications Powerapps qui ont servi de preuves de concept. J'ai travaillé à la refonte d'une calculette de délais en VueJs. Ces projets m'ont confirmé que le web est un domaine qui m'intéresse."
+        "en": "At AMP, I gained my first professional experience in web development. I designed several PowerApps applications as proof-of-concept projects and contributed to redesigning a deadline calculator with Vue.js. These tasks taught me how to turn requirements into functional prototypes, explore a new technology stack, and work independently in a professional environment. They confirmed my interest in web development and gave me practical experience delivering solutions.",
+        "fr": "À l'AMP, j'ai réalisé mes premières expériences professionnelles en développement web. J'ai conçu plusieurs applications PowerApps servant de preuves de concept et participé à la refonte d'une calculatrice de délais avec Vue.js. Ces tâches m'ont permis de transformer des besoins en prototypes fonctionnels, d'explorer une nouvelle base technologique et de développer mon autonomie dans un environnement professionnel. Elles ont confirmé mon intérêt pour le développement web et m'ont donné une première expérience concrète de la livraison de solutions."
       },
       "logo": "images/amp.png",
       "technologies": [
